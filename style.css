@@ -1,3 +1,8 @@
+*
+{
+    cursor: default;
+}
+
 h1
 {
     font-family: 'Calibri', 'Georgia', 'Times New Roman', 'Times', 'serif';
@@ -8,6 +13,7 @@ h1
 div
 {
     border-radius: 30px;
+    /* border: 1px solid black; */
 }
 
 body
@@ -44,6 +50,7 @@ input
 
 input:hover
 {
+    cursor: pointer;
     transform: scale(1.06);
     transition-duration: 0.2s;
 }
@@ -90,6 +97,7 @@ button
 
 button:hover
 {
+    cursor: pointer;
     transition-duration: 0.21s;
     transform: scale(1.12);
 }
