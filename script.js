@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function()
 
         else if (curMonth > month)
         {
-            ageMonth = curMonth - month;
+            ageMonth = curMonth - month ;
             ageYear = curYear - year;
         }
 
